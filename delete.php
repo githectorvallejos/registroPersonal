@@ -3,9 +3,11 @@
 include("conexion.php");
 $con=conectar();
 
-$cod_estudiante=$_GET['id'];
+$cod_personal=$_GET['id'];
 
-$sql="DELETE FROM alumno  WHERE cod_personal='$cod_personal'";
+echo $cod_personal;
+
+$sql="DELETE FROM personal  WHERE cod_personal='$cod_personal'";
 $query=mysqli_query($con,$sql);
 
     if($query){

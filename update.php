@@ -3,7 +3,7 @@
 include("conexion.php");
 $con=conectar();
 
-$cod_estudiante=$_POST['cod_personal'];
+$cod_personal=$_POST['cod_personal'];
 $dni=$_POST['dni'];
 $nombres=$_POST['nombres'];
 $apellidos=$_POST['apellidos'];

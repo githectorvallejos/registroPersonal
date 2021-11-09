@@ -4,7 +4,7 @@
 
 $id=$_GET['id'];
 
-$sql="SELECT * FROM alumno WHERE cod_personal='$id'";
+$sql="SELECT * FROM personal WHERE cod_personal='$id'";
 $query=mysqli_query($con,$sql);
 
 $row=mysqli_fetch_array($query);

@@ -25,7 +25,6 @@
                             <h2>Alta de personal</h2>
                                 <form action="insertar.php" method="POST">
     
-                                    <input type="text" class="form-control mb-3" name="cod_personal" placeholder="Cod. Personal">
                                     <input type="text" class="form-control mb-3" name="dni" placeholder="DNI">
                                     <input type="text" class="form-control mb-3" name="nombres" placeholder="Nombres">
                                     <input type="text" class="form-control mb-3" name="apellidos" placeholder="Apellidos">
